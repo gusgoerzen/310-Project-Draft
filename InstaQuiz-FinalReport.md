@@ -5,14 +5,15 @@ The Best Group (Gus Goerzen, Tanner Dyck, Sten Korver, Patrick Ma, Kiyoon Kim)
 **Video Walkthrough: (insert link here)**
 
 
-# General Development:**
+# General Development:
 
 ### 1. What did your team build? Is it feature complete and running? 
 
 Our team built a web-based system that enables instructors to engage students in real-time, interactive quizzes during lectures. It is feature complete and running. Instructors have the ability to create course modules, which serve as virtual meeting spaces for their students. Instructors are able to display custom questions to their students, and receive their responses in real time. Students can easily search for and join these courses online. The system operates on a live webpage, reinforced by a secure login system. Students have access to their individual performance metrics (attendance, grades), while instructors have metrics for their entire class.
 <br>
 
-### 2. 
+### 2. How many of your initial requirements that your team set out to deliver did you actually deliver (a checklist/table would help to summarize)?  Were you able to deliver everything or are there things missing?  Did your initial requirements sufficiently capture the details needed for the project?
+
 | Initial Requirements | Complete (C) / Incomplete (I) / Modified (M) |
 |----------------------|-------------------------------|
 | **User:**|
@@ -83,6 +84,7 @@ There are **N** tasks left in the backlog
 <br>
 
 
+
 # CI/CD:
 
 ### 1. What testing strategies did you implement?  Comment on their degree of automation and the tools used.    Would you (as a team) deal with testing differently in the future?  Make sure to ensure that your testing report is updated to reflect what's actually been done. 
@@ -99,6 +101,7 @@ The branching workflow worked great for our team. Every large component of the s
 
 answer here
 <br>
+
 
 
 # Reflections:
