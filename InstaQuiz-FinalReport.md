@@ -1,23 +1,18 @@
-**COSC 310 Final Project Report (The InstaQuiz Iclicker Clone)**
+# COSC 310 Final Project Report (The InstaQuiz Iclicker Clone)
 
-The Best Group 
--Gus Goerzen
--Tanner Dyck
--Sten Korver
--Patrick Ma
--Kiyoon Kim
-
-
+The Best Group (Gus Goerzen, Tanner Dyck, Sten Korver, Patrick Ma, Kiyoon Kim)
 
 **Video Walkthrough: (insert link here)**
 
 
+# General Development:**
 
-**General Development:**
+### 1. What did your team build? Is it feature complete and running? 
 
-1. Our team built a web-based system that enables instructors to engage students in real-time, interactive quizzes during lectures. It is feature complete and running. Instructors have the ability to create course modules, which serve as virtual meeting spaces for their students. Instructors are able to display custom questions to their students, and receive their responses in real time. Students can easily search for and join these courses online. The system operates on a live webpage, reinforced by a secure login system. Students have access to their individual performance metrics (attendance, grades), while instructors have metrics for their entire class.
+Our team built a web-based system that enables instructors to engage students in real-time, interactive quizzes during lectures. It is feature complete and running. Instructors have the ability to create course modules, which serve as virtual meeting spaces for their students. Instructors are able to display custom questions to their students, and receive their responses in real time. Students can easily search for and join these courses online. The system operates on a live webpage, reinforced by a secure login system. Students have access to their individual performance metrics (attendance, grades), while instructors have metrics for their entire class.
+<br>
 
-2. 
+### 2. 
 | Initial Requirements | Complete (C) / Incomplete (I) / Modified (M) |
 |----------------------|-------------------------------|
 | **User:**|
@@ -62,11 +57,11 @@ The Best Group
 | 2. Web service must be able to handle large amounts of traffic. As an international education tool, thousands of academics may be on the site at one time. Live sessions must be able to support over 300 connected clients at a time. | C |
 <br>
 
-Some of the intital requirements were modififed as the system was developed. However, this was expected. User requirements #13 was modified to allow for multiple polls to be open at one time. User requirements #14 was modified to allow for instructors to declare the correct answer during the creation of the question rather than during the closing of a poll. Besides these modifications (we see as improvements), our team was able to deliver everything that was outlined in the initial requirements. The requirements sufficiently captured all of the necessary details. As a result, the system is feature complete and operating as expected. 
+MODIFICATION NOTES: Some of the intital requirements were modififed as the system was developed, however, this was expected. User requirements #13 was modified to allow for multiple polls to be open at one time. User requirements #14 was modified to allow for instructors to declare the correct answer during the creation of the question rather than during the closing of a poll. Besides these modifications (we see as improvements), our team was able to deliver everything that was outlined in the initial requirements. The requirements sufficiently captured all of the necessary details. As a result, the system is feature complete and operating as expected. 
 <br>
 
-
 ### 3. What is the architecture of the system?  What are the key components?   What design patterns did you use in the implementation?  This needs to be sufficiently detailed so that the reader will have an understanding of what was built and what components were used/created.  You will need to reflect on what you planned to build vs what you built.
+
 The InstaQuiz system uses a client-server architecture for easy management and scalability. The system was built with a combination HTML, CSS, JavaScript, and PHP. Live sessions are implemented with AJAX, which enables real-time communication between the client and server. The system is containerized using Docker which allows the app to run consistently accross different environments.
 <br>
 
@@ -88,7 +83,7 @@ There are **N** tasks left in the backlog
 <br>
 
 
-**CI/CD:**
+# CI/CD:
 
 ### 1. What testing strategies did you implement?  Comment on their degree of automation and the tools used.    Would you (as a team) deal with testing differently in the future?  Make sure to ensure that your testing report is updated to reflect what's actually been done. 
 
@@ -106,7 +101,7 @@ answer here
 <br>
 
 
-**Reflections:**
+# Reflections:
 
 ### 1. How did your project management work for the team?  What was the hardest thing and what would you do the same/differently the next time you plan to complete a project like this?
 
