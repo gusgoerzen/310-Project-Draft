@@ -33,13 +33,13 @@ Our team built a web-based system that enables instructors to engage students in
 | 14. Instructors can end their live polling window and declare the correct answer to the question. | M |
 | 15. Users can answer a question by clicking on the corresponding answer listed beneath the question text. A user can change their answer during the polling window. | C |
 | 16. Instructors can choose to display a summary of the question, (correct answer, how many votes each answer got, how many total responses, etc.) or to keep it hidden from the class. Instructors will be able to see this summary regardless after they end a polling window. | I |
-| 17. For each course they are enrolled in, students will be able to see their current score, attendance record, and response history throughout previously attended live sessions. | I |
-| 18. For each course they have created, instructors will have access to their student’s grades, attendance records, and response history. | I |
+| 17. For each course they are enrolled in, students will be able to see their current score, attendance record, and response history throughout previously attended live sessions. | C |
+| 18. For each course they have created, instructors will have access to their student’s grades, attendance records, and response history. | C |
 | &nbsp; |
 | **Interface:** |
 | 1. Students have an overview page which displays each course they are enrolled in, and gives them the option to join a class, or unenroll from one. | C |
-| 2. Students can access course pages from the overview page where they will then be able to view their course statistics and join live sessions that are currently running. | I |
-| 3. During a polling window, the question statistics are displayed and updated in real-time. (How many students have answered/ not answered) | I |
+| 2. Students can access course pages from the overview page where they will then be able to view their course statistics and join live sessions that are currently running. | C |
+| 3. During a polling window, the question statistics are displayed and updated in real-time. (How many students have answered/ not answered) | C |
 | &nbsp; |
 | **Functional:** |
 | 1. InstaQuiz will keep record of all the courses that have been created by instructors and store data about them such as their title, name of instructor, and course code made up of the faculty abbreviations and course number (ex COSC 310). | C | 
@@ -58,7 +58,7 @@ Our team built a web-based system that enables instructors to engage students in
 | 2. Web service must be able to handle large amounts of traffic. As an international education tool, thousands of academics may be on the site at one time. Live sessions must be able to support over 300 connected clients at a time. | C |
 <br>
 
-MODIFICATION NOTES: Some of the intital requirements were modififed as the system was developed, however, this was expected. User requirements #13 was modified to allow for multiple polls to be open at one time. User requirements #14 was modified to allow for instructors to declare the correct answer during the creation of the question rather than during the closing of a poll. Besides these modifications (we see as improvements), our team was able to deliver everything that was outlined in the initial requirements. The requirements sufficiently captured all of the necessary details and, as a result, the system is feature complete and operating as expected. 
+MODIFICATION NOTES: Some of the intital requirements were modififed as the system was developed, however, this was expected. User requirements #13 was modified to allow for multiple polls to be open at one time. User requirements #14 was modified to allow for instructors to declare the correct answer during the creation of the question rather than during the closing of a poll. User requirement #16 was our only miss as we did not end up implementing a live poll summary. Besides this minor subtraction and a few modifications, modifications we see as improvements, our team was able to deliver everything that was outlined in the initial requirements. Our requirements sufficiently captured all of the necessary details and, as a result, the system is feature complete and operating as expected. 
 <br>
 
 ### 3. What is the architecture of the system?  What are the key components?   What design patterns did you use in the implementation?  This needs to be sufficiently detailed so that the reader will have an understanding of what was built and what components were used/created.  You will need to reflect on what you planned to build vs what you built.
@@ -83,7 +83,7 @@ Many components were reused across both student and instructor accounts as they 
 <br>
 
 ### 5. How many tasks are left in the backlog?: 
-There are no tasks left in the backlog.
+There is only 1 task left in the backlog (implement live poll summary feature for user requirement #16). 
 <br>
 
 
